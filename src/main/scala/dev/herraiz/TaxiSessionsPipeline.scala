@@ -16,8 +16,7 @@
 
 package dev.herraiz
 
-import com.spotify.scio.bigquery._
-import com.spotify.scio.bigquery.{CREATE_IF_NEEDED, Table, WRITE_TRUNCATE}
+import com.spotify.scio.bigquery.{CREATE_IF_NEEDED, Table, _}
 import com.spotify.scio.pubsub.PubsubIO
 import com.spotify.scio.values.{SCollection, WindowOptions}
 import com.spotify.scio.{Args, ContextAndArgs, ScioContext, streaming}
